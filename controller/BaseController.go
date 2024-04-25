@@ -1,6 +1,4 @@
 /*
-Package main provides a base controller interface for handling HTTP requests.
-
 The BaseController interface defines methods for handling common HTTP request
 types such as GET, POST, PUT, DELETE, etc. This interface serves as a contract
 for implementing controllers responsible for handling specific routes in the application.
