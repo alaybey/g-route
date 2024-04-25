@@ -21,20 +21,11 @@ This project illustrates how to organize a Go web application with multiple cont
         └── LICENCE.md
 
 ## Advantages
-Less Code Complexity !
-
-#### Monolithic/Modular Monolothic Architecture with Modular Route Handling
+- **Less Code Complexity:** Just define a controller/handler on own file
 - **Simplified Maintenance**: Organizing routes into separate modules makes it easier to manage and maintain the codebase.
 - **Enhanced Scalability**: Can scale individual modules independently, allowing for better resource allocation and improved performance.
 - **Improved Developer Experience**: Developers can work on specific modules without needing to understand the entire application, reducing cognitive load and improving productivity.
 - **Flexibility**: Modules can be added, updated, or removed with minimal impact on other parts of the application, providing flexibility for future enhancements.
-
-#### Microservices Architecture with Modular Route Handling
-- **Isolation of Concerns**: Each microservice can have its own set of routes, encapsulating related functionality and promoting separation of concerns.
-- **Independent Deployment**: Routes and associated handlers/controllers can be deployed independently as part of their respective microservices, enabling rapid iteration and deployment.
-- **Scalability**: Can scale individual microservices and their associated routes independently based on demand, providing efficient resource utilization and improved performance.
-- **Technology Flexibility**: Allows for the use of different technologies and frameworks for each microservice's routes, optimizing for specific requirements and preferences.
-- **Granular Monitoring and Debugging**: Modular route handling facilitates granular monitoring and debugging of individual microservices, aiding in performance optimization and issue resolution.
 
 ## Contributing
 
