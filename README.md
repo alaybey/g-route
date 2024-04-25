@@ -21,7 +21,8 @@ This project illustrates how to organize a Go web application with multiple cont
         └── LICENCE.md
 
 ## Advantages
-- **Less Code Complexity:** Just define a controller/handler on own file
+just add all controllers with single line like `controller.RegisterRoutes(mux)`
+- **Less Code Complexity:** Just define a controller/handler on own file 
 - **Simplified Maintenance**: Organizing routes into separate modules makes it easier to manage and maintain the codebase.
 - **Enhanced Scalability**: Can scale individual modules independently, allowing for better resource allocation and improved performance.
 - **Improved Developer Experience**: Developers can work on specific modules without needing to understand the entire application, reducing cognitive load and improving productivity.
